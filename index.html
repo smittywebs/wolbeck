@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="relative container max-w-full">
+      <!-- Flex container -->
+      <div class="flex items-center justify-center space-x-32 md:space-x-80">
+        <div class="flex flex-row">
+          <!--logo-->
+          <img
+            class="h-14 pl-4 md:h-12 md:p-1"
+            src="images/Wolbeck Logo.png"
+            alt="Wolbeck llc. logo"
+          />
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden pr-4 space-x-8 text-lg lg:flex">
+          <a href="index.html" class="hover:underline hover:text-gray-400"
+            >Home</a
+          >
+          <a
+            href="about.html"
+            class="whitespace-nowrap hover:underline hover:text-gray-400"
+            >About</a
+          >
+
+          <a href="contact.html" class="hover:underline hover:text-gray-400"
+            >Contact</a
+          >
+        </div>
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger lg:hidden focus:outline-none pr-14"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="lg:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      class="grid grid-rows-1 bg-gray-100 place-self-center md:grid-cols-2 gap-2 pt-10 pb-10 w-full"
+    >
+      <div class="md:ml-16 2xl:ml-80">
+        <h1 class="pb-10 text-center text-4xl lg:text-left 2xl:text-6xl">
+          Industrial Equipment Repair Shop
+        </h1>
+        <p class="text-lg text-center p-2 md:pr-0 md:text-left">
+          Wolbeck LLC specializes in providing top-quality scissor lifts and
+          heavy-duty machinery. Our services range from sales to rentals,
+          repairs, and used equipment for sale at competitive prices.
+        </p>
+      </div>
+      <div class="p-4">
+        <img
+          class="md:shadow-2xl shadow-zinc-500 border border-black rounded-lg h-80 md:pt-0 md:h-[400px]"
+          src="images/Wolbeck 6.jpeg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="h-500 w-full mb-10">
+      <div>
+        <h2
+          class="pt-10 pb-10 text-center text-4xl md:text-left md:pl-32 2xl:text-5xl"
+        >
+          our services
+        </h2>
+      </div>
+      <div class="grid grid-row-1 gap-3 place-items-center md:grid-cols-3">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="#">
+            <img
+              class="rounded-t-lg h-96 w-full"
+              src="images/Wolbeck 10.jpeg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                PLACE SERVICES HERE
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              esse autem labore tempore rerum modi pariatur inventore facere
+              tenetur illo.
+            </p>
+          </div>
+        </div>
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg h-96 w-full"
+              src="images/Wolbeck 3.jpeg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                PLACE SERVICES HERE
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              molestiae voluptates ipsa animi ad cum, quae eius? Voluptate,
+              libero illo nihil sit voluptas dolorum excepturi placeat?
+            </p>
+          </div>
+        </div>
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg h-96 w-full"
+              src="images/Wolbeck 7.jpeg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                PLACE SERVICES HERE
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga
+              at eligendi quidem, nihil sit voluptas dolorum excepturi placeat
+              possimus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
